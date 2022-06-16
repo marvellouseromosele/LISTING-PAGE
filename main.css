@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,
+wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap);
+
+:root{
+    --white-light: #fffff7;
+    --alice-blue: #f0f8ff;
+    --carribean-green: #40c9a2;
+    --gray: #ededed;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"quicksand", sans-serif;
+    background: var(--alice-blue);
+    max-width: 600rem;
+
+}
+/* utility-styling */
+img{
+    width: 100%;
+    display: block;
+}
+.container{
+    width: 88vw;
+    margin: 0 auto;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.main-title,
+.sub-title{
+    font-family: "Roboto", sans-serif;
+    padding: 0.6rem 0;
+    text-transform: capitalize;
+}
+.main-title{
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 1.3rem 0;
+    opacity: 0.8;
+}
+.sub-title{
+    font-weight: 300;
+    font-size: 1rem;
+    /* text-transform: uppercase; */
+    font-weight: 600;
+    margin-bottom: -0.4rem;
+    margin-top: 0.4rem ;
+}
+.rating{
+    font-size: 14px;
+    opacity: 0.7;
+    font-weight: 300;
+}
+.fas.fa-star{
+    color: gold;
+    opacity: ;
+    
+}
+.reference{
+    font-size: 14px;
+    opacity: 0.7;
+    font-weight: 300;
+}
+.price{
+    color: #f6d30d;
+}
+
+/* product section */
+.products{
+    background: var(--alice-blue);
+    padding: 3.2rem 0;
+}
+.products{
+    text-align: 
+    width: 70%;
+    margin: 0.9rem auto;
+}
+.products{
+    text-align: left;
+    ;
+}
+.product{
+    margin: 2rem;
+    position: relative;
+    padding-top: 2rem;
+}
+.product-content{
+    background: white;
+    padding: 0.9rem;
+    margin-right: 5rem;
+    margin-left: -4rem;
+    margin-top: -1.2rem;
+    cursor: pointer;
+    width: 220px;
+    height: auto;
+    border-radius: 0.1rem;
+    
+}
+.product-img{
+    background: white;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    transition: background 0.5s ease;
+}
+
+.btn-cart{
+    background: transparent;
+    border: 1px solid;
+    opacity: 0.9;
+    transition: opacity 0.6s ease;
+    background-color: rgb(118, 11, 226);
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+    color: white;
+    font-weight: 300;
+
+    }
+.first-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:
+}
+.second-row{
+    display: flex;
+    margin-top: 40px;
+
+}
+.third-row{
+    display: flex;
+    margin-top: 40px;
+}
+
+hr{
+opacity: 0.7;
+max-width: 100%;
+
+}
+.bt{
+   background-color:cgrey;
+   border-radius: 4px;
+}
+
+.fas.fa-shopping-cart{
+    color: blackn ;
+}
+
+#heart{
+    margin-top: -9rem;
+    width: 20px;
+} 
+
+.heart{
+    margin-top: -100%;
+    width: 20px;
+} 
+
+#heart5{
+    margin-top: -74% ;
+}
+
+#heart6{
+    margin-top: -84%;
+}
+#heart7{
+    margin-top: -74%;
+}

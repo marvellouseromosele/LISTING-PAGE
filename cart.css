@@ -1,0 +1,198 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,
+wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap);
+
+:root{
+    --white-light: #fffff7;
+    --alice-blue: #f0f8ff;
+    --carribean-green: #40c9a2;
+    --gray: #ededed;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"quicksand", sans-serif;
+    background: var(--alice-blue);
+    max-width: 600rem;
+
+}
+/* utility-styling */
+img{
+    width: 100%;
+    display: block;
+}
+.container{
+    width: 88vw;
+    margin: 0 auto;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2rem ;
+    
+}
+.main-title,
+.sub-title{
+    font-family: "Roboto", sans-serif;
+    padding: 0.6rem 0;
+    text-transform: capitalize;
+}
+.main-title{
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 1.3rem 0;
+    opacity: 0.8;
+}
+.btn{
+    background-color: rgb(88, 86, 86);
+    opacity: 0.8;
+    border-radius: 0.2rem;
+    border: thin;
+    width: 10rem;
+    height: 2rem;
+}
+.btn2{
+    background-color: rgb(145, 40, 231);
+    border: thin;
+    opacity: 0.8;
+    border-radius: 0.2rem;
+    font-weight:600;
+    color: white;
+    width: 10rem;
+    height: 2rem;
+    padding-right: 10px;
+    margin-right: 20px;
+    
+}
+b{
+    text-decoration: none;
+    color: white;
+    
+}
+.cart-content{
+align-self: center;
+}
+.table{
+    border-collapse: collapse;
+    width: 70%;
+    table-layout:fixe;
+    margin-top: 4rem;
+    opacity: 0.8;
+    background-color: white;
+    border-radius: 3px;
+    margin-left: 12%;
+
+}
+
+.t-head{
+    font-weight: 700;
+    font-size: 70%;
+    padding: 20px;
+}
+
+.t-row, .row1, .row2, .row3, .row4, .row5{
+    border-bottom: 0.1px  solid rgb(222, 221, 221);
+}
+
+
+td{
+    border: none;
+    padding: 6px ;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.t-body{
+}
+.fas.fa-trash-alt{
+    color: red;
+}
+
+.t-body tr, td, img{
+    width: 30%;
+    height: 30%;
+}
+.coupon p{
+    opacity: 0.8;
+    font-size: 14px;
+    margin-left: -1.24rem;
+}
+.btn3{
+    background-color: rgb(145, 40, 231);
+    color: white;
+    font-weight: 600;
+    opacity: 0.8;
+    border-radius: 0.2rem;
+    border: thin;
+    padding: 3px;
+    width: 45px;
+    /* margin-left: -6rem; */
+    /* margin-top: 1rem; */
+}
+
+.coupon button.btn{
+    background-color: rgb(122, 117, 117);
+}
+
+.coupon input{
+    opacity: 0.8;
+    margin-left:-25px;
+    width: 130px;
+}
+.table .row5 .payment{
+ border-left: thin solid rgb(208, 202, 202);
+ width: 200%;
+}
+
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tb{
+    font-size: 14px;
+}
+
+
+td{
+    border: none;
+    padding: 6px ;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.quantity{
+    width: 60px;
+}
+.t-body{
+}
+.fas.fa-trash-alt{
+    color: red;
+}
+
+.t-body, tr, td, img{
+    width: 30%;
+    height: 30%;
+}
+.row5{
+    border-collapse: collapse;
+}
+.payment tr td{
+    font-size: 13px;
+    
+
+}
+
+.pt2{
+    background-color: ;
+    border-top: thin solid rgb(160, 154, 154);
+    font-weight: 600;
+    
+}
+
