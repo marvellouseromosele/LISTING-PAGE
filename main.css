@@ -3,9 +3,8 @@ wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap);
 
 :root{
     --white-light: #fffff7;
-    --alice-blue: #f0f8ff;
     --carribean-green: #40c9a2;
-    --gray: #ededed;
+    --gray: #f6f3f3;
 }
 
 *{
@@ -16,7 +15,7 @@ wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap);
 
 body{
     font-family:"quicksand", sans-serif;
-    background: var(--alice-blue);
+    background-color: hwb(0 95% 5%);
     max-width: 600rem;
 
 }
@@ -152,7 +151,7 @@ max-width: 100%;
 }
 
 .fas.fa-shopping-cart{
-    color: blackn ;
+    color: black ;
 }
 
 #heart{
